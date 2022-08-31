@@ -4,6 +4,8 @@ import 'package:skyrim_alchemy/screens/effects_screen.dart';
 import 'package:skyrim_alchemy/screens/potions_screen.dart';
 
 class DrawerScreen extends StatelessWidget {
+  const DrawerScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Drawer(
